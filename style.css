@@ -1,0 +1,86 @@
+/*
+Theme Name: 	Bootsrap 4.3.3
+Theme URI: 		babobski.nl
+Description: 	Het babobski basis thema
+Version: 	1.0
+Author: 		bob de haas
+Author URI: 	http://babobski.nl
+Tags: 		babobski, bootstrap, basis thema
+*/
+
+/*
+===========================
+CONTENTS:
+
+01 defaults
+02 Typography
+03 Media queries
+04 css
+===========================
+*/
+
+/* ---------------------------------------------------------------------------------------------------------- 
+01 defaults -------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+
+div,
+article,
+section,
+header,
+footer,
+nav,
+li					{ position:relative; /* For absolutely positioning elements within containers (add more to the list if need be) */ }
+.group:after 		{ display:block; height:0; clear:both; content:"."; visibility:hidden; /* For clearing */ }
+body 				{ background:#fff; /* Don't forget to style your body to avoid user overrides */ }
+::-moz-selection 	{ background:#ff0; color:#333; }
+::selection 		{ background:#ff0; color:#333; }
+
+/* ---------------------------------------------------------------------------------------------------------- 
+02 Typography -----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+/*
+
+14 / 16	= 		0.875em 		(14px equivalent)
+16 / 16	= 		1em 			(16px equivalent)
+18 / 16 = 		1.125em 		(18px equivalent)
+21 / 16 = 		1.3125em 		(21px equivalent)
+24 / 16 = 		1.5em 			(24px equivalent)
+30 / 16 = 		1.875em 		(30px equivalent)
+
+*/
+
+body,
+input,
+textarea 			{ /* We strongly recommend you declare font-weight using numerical values, but check to see which weights you're exporting first */ }
+
+/*
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 					{ font-weight:bold; /* This helps to identify headings at the initial build stage, but you should write something more precise later on */ }
+*/
+
+/* ---------------------------------------------------------------------------------------------------------- 
+03 Media queries  -------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+/* 400 and up */
+@media screen and (min-width:400px) {
+
+					{ /* Place your styles here for all widths greater than 400px */ }
+
+}
+
+/* Retina Display */
+@media screen and (-webkit-min-device-pixel-ratio:2) {
+
+					{ /* Place your styles here for all 'Retina' screens */ }
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------- 
+04 css ------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
