@@ -30,8 +30,12 @@
 
 	require_once( 'external/bootstrap-utilities.php' );
 	require_once( 'external/wp_bootstrap_navwalker.php' );
-    require_once( 'admin/admin-panel.php' ); //TODO aanpassen voor bootstrap breadcrumbs enz.
 	
+	/* ========================================================================================================================
+	
+	Add html 5 support to wordpress elements
+	
+	======================================================================================================================== */
 	add_theme_support( 'html5', array(
 		'comment-list',
 		'search-form',
@@ -64,7 +68,7 @@
 
 	/* ========================================================================================================================
 	
-	Custom Post Types - include custom post types and taxonimies here e.g.
+	Custom Post Types - include custom post types and taxonomies here e.g.
 
 	e.g. require_once( 'custom-post-types/your-custom-post-type.php' );
 	
