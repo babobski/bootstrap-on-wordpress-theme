@@ -18,8 +18,6 @@
                 'theme_location'    => 'primary',
                 'depth'             => 2,
                 'container'         => false,
-                'container_class'   => 'collapse navbar-collapse',
-				'container_id'      => 'bs-navbar-collapse-1',
                 'menu_class'        => 'nav navbar-nav',
                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                 'walker'            => new wp_bootstrap_navwalker())
@@ -29,4 +27,3 @@
 	</div>
   </div>
 </nav>
-
