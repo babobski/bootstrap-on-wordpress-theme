@@ -91,15 +91,15 @@
 
 	function bootstrap_script_init() {
 		
-		wp_register_script('bootstrap', get_template_directory_uri(). '/js/bootstrap.min.js', array( 'jquery' ), '3.3.4', true);
+		wp_register_script('bootstrap', get_template_directory_uri(). '/js/bootstrap.min.js', array( 'jquery' ), '3.3.5', true);
 		wp_enqueue_script('bootstrap');
 		
 		wp_register_script( 'site', get_template_directory_uri().'/js/site.js', array( 'jquery', 'bootstrap' ), '0.0.1', true );
 		wp_enqueue_script( 'site' );
 
-		wp_register_style( 'bootstrap', get_stylesheet_directory_uri().'/css/bootstrap.min.css', '', '', 'all' );
-		wp_register_style( 'screen', get_stylesheet_directory_uri().'/style.css', '', array(), 'screen' );
+		wp_register_style( 'bootstrap', get_stylesheet_directory_uri().'/css/bootstrap.min.css', '', '3.3.5', 'all' );
 		wp_enqueue_style( 'bootstrap' );
+		wp_register_style( 'screen', get_stylesheet_directory_uri().'/style.css', '', array(), 'screen' );
 		wp_enqueue_style( 'screen' );
 	}
 	
