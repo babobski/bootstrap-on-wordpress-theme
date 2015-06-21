@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Bootstrap 3.3.4\n"
-"POT-Creation-Date: 2015-05-12 20:20+0100\n"
-"PO-Revision-Date: 2015-05-12 20:20+0100\n"
+"POT-Creation-Date: 2015-06-21 21:20+0100\n"
+"PO-Revision-Date: 2015-06-21 21:20+0100\n"
 "Last-Translator: \n"
 "Language-Team: babobski\n"
 "Language: nl_NL\n"
@@ -15,48 +15,11 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../admin/admin-panel.php:52
-msgid "Bootstrap 3.3.4 Theme Settings"
-msgstr "Bootstrap 3.3.4 thema-instellingen"
-
-#: ../admin/admin-panel.php:79
-msgid "Site Settings"
-msgstr "Site-instellingen"
-
-#: ../admin/admin-panel.php:86
-msgid "Seo Settings"
-msgstr "Seo instellingen"
-
-#: ../admin/admin-panel.php:93
-msgid "Display company name after title"
-msgstr "Bedrijfsnaam achter de titel "
-
-#: ../admin/admin-panel.php:101
-msgid "Title separator"
-msgstr "Titel scheidingsteken"
-
-#: ../admin/admin-panel.php:109
-msgid "Homepage Seo title"
-msgstr "Homepagina Seo Titel"
-
-#: ../admin/admin-panel.php:117
-msgid "Hompage Seo Description"
-msgstr "Homepagina Seo Beschrijving"
-
-#: ../admin/admin-panel.php:124
-msgid "Hompage Seo Keywords"
-msgstr "Homepagina Seo Keywords"
-
-#: ../admin/admin-panel.php:161
-msgid "Some site defaults"
-msgstr "Een paar site instellingen"
-
-#: ../admin/admin-panel.php:182
-msgid "Homepage settings:"
-msgstr "Homepagina instellingen:"
+#: ../404.php:14
+msgid "Page not found"
+msgstr "Pagina niet gevonden"
 
 #: ../archive.php:22 ../archive.php:24 ../archive.php:26 ../archive.php:28
-#: ../external/seo-utilities.php:242
 msgid "Archive"
 msgstr "Archief"
 
@@ -91,7 +54,7 @@ msgstr "Over"
 msgid "No posts to display for"
 msgstr "Geen berichten te tonen voor"
 
-#: ../category.php:15 ../external/seo-utilities.php:240
+#: ../category.php:15
 msgid "Category Archive:"
 msgstr "Categorie Archief:"
 
@@ -127,42 +90,6 @@ msgstr "E-mailadres is verplicht"
 msgid "Comment is required"
 msgstr "Commentaar is vereist"
 
-#: ../external/seo-utilities.php:14
-msgid "SEO"
-msgstr "SEO"
-
-#: ../external/seo-utilities.php:42
-msgid "Page title"
-msgstr "Titel pagina"
-
-#: ../external/seo-utilities.php:46
-msgid "Page description"
-msgstr "Paginabeschrijving"
-
-#: ../external/seo-utilities.php:50
-msgid "Page keywords"
-msgstr "Pagina keywords"
-
-#: ../external/seo-utilities.php:54
-msgid "No index / No follow (hidden for searchengine)"
-msgstr "No index / No follow (verborgen voor de zoekmachine)"
-
-#: ../external/seo-utilities.php:117 ../external/seo-utilities.php:155
-msgid "Seo Title"
-msgstr "Seo Titel"
-
-#: ../external/seo-utilities.php:118 ../external/seo-utilities.php:156
-msgid "Seo Desciption"
-msgstr "Seo Description"
-
-#: ../external/seo-utilities.php:119 ../external/seo-utilities.php:157
-msgid "Seo Keywords"
-msgstr "Seo Keywords"
-
-#: ../external/seo-utilities.php:120 ../external/seo-utilities.php:158
-msgid "No Index / No Follow"
-msgstr "No Index / No Follow"
-
 #: ../index.php:21
 msgid "Latest Posts"
 msgstr "Laatste berichten"
@@ -186,6 +113,63 @@ msgstr "Zoeken"
 #: ../searchform.php:5
 msgid "Submit"
 msgstr "Verzenden"
+
+#~ msgid "Bootstrap 3.3.4 Theme Settings"
+#~ msgstr "Bootstrap 3.3.4 thema-instellingen"
+
+#~ msgid "Site Settings"
+#~ msgstr "Site-instellingen"
+
+#~ msgid "Seo Settings"
+#~ msgstr "Seo instellingen"
+
+#~ msgid "Display company name after title"
+#~ msgstr "Bedrijfsnaam achter de titel "
+
+#~ msgid "Title separator"
+#~ msgstr "Titel scheidingsteken"
+
+#~ msgid "Homepage Seo title"
+#~ msgstr "Homepagina Seo Titel"
+
+#~ msgid "Hompage Seo Description"
+#~ msgstr "Homepagina Seo Beschrijving"
+
+#~ msgid "Hompage Seo Keywords"
+#~ msgstr "Homepagina Seo Keywords"
+
+#~ msgid "Some site defaults"
+#~ msgstr "Een paar site instellingen"
+
+#~ msgid "Homepage settings:"
+#~ msgstr "Homepagina instellingen:"
+
+#~ msgid "SEO"
+#~ msgstr "SEO"
+
+#~ msgid "Page title"
+#~ msgstr "Titel pagina"
+
+#~ msgid "Page description"
+#~ msgstr "Paginabeschrijving"
+
+#~ msgid "Page keywords"
+#~ msgstr "Pagina keywords"
+
+#~ msgid "No index / No follow (hidden for searchengine)"
+#~ msgstr "No index / No follow (verborgen voor de zoekmachine)"
+
+#~ msgid "Seo Title"
+#~ msgstr "Seo Titel"
+
+#~ msgid "Seo Desciption"
+#~ msgstr "Seo Description"
+
+#~ msgid "Seo Keywords"
+#~ msgstr "Seo Keywords"
+
+#~ msgid "No Index / No Follow"
+#~ msgstr "No Index / No Follow"
 
 #~ msgid "No index / No Follow (hidden for searchengine)"
 #~ msgstr "No index / no Follow (verborgen voor de zoekmachine)"
