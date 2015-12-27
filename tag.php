@@ -5,7 +5,7 @@
  * Please see /external/starkers-utilities.php for info on BsWp::get_template_parts()
  *
  * @package 	WordPress
- * @subpackage 	Bootstrap 4.3.3
+ * @subpackage 	Bootstrap 3.3.6
  * @autor 		Babobski
  */
 ?>

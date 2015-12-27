@@ -2,10 +2,10 @@
 /**
  * The template for displaying Author Archive pages
  *
- * Please see /external/starkers-utilities.php for info on BsWp::get_template_parts()
+ * Please see /external/bootstrap-utilities.php for info on BsWp::get_template_parts() 
  *
- * @package 	WordPress
- * @subpackage 	Bootstrap 3.3.5
+ * @package 	WordPres6
+ * @subpackage 	Bootstrap 3.3.6
  * @autor 		Babobski
  */
 ?>
