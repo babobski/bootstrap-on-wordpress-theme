@@ -1,6 +1,6 @@
 Bootstrap on Wordpress
 ===========
-Bootstrap on wordpress is a blank bootstrap 3.3.6 ready wordpress theme.
+Bootstrap on wordpress is a blank bootstrap 3.3.7 ready wordpress theme.
 <br><br>
 For full documentation go to the [Bootstrap on Wordpress website](http://www.babobski.nl/bootstrap-on-wordpress/).
 
