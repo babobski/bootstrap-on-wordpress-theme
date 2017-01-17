@@ -2,7 +2,7 @@ Bootstrap on Wordpress
 ===========
 Bootstrap on wordpress is a blank bootstrap 3.3.7 ready wordpress theme.
 <br><br>
-For full documentation go to the [Bootstrap on Wordpress website](http://www.babobski.nl/bootstrap-on-wordpress/).
+For full documentation go to the [Bootstrap on Wordpress website](http://bootstraponwordpress.babobski.nl/).
 
 ## Installation
 Download the files, with the "Download ZIP" button.  
