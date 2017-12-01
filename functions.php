@@ -1,6 +1,6 @@
 <?php
 	/**
-	 * Starkers functions and definitions
+	 * Bootstrap on Wordpress functions and definitions
 	 *
 	 * For more information on hooks, actions, and filters, see http://codex.wordpress.org/Plugin_API.
 	 *
@@ -111,7 +111,7 @@
 	
 	//remove wp version
 	function theme_remove_version() {
-	return '';
+		return '';
 	}
 	
 	add_filter('the_generator', 'theme_remove_version');
@@ -155,8 +155,14 @@
 				<?php echo get_avatar( $comment ); ?>
 			</div>
 			<div class="media-body">
-				<h4 class="media-heading"><?php comment_author_link() ?></h4>
-				<time><a href="#comment-<?php comment_ID() ?>" pubdate><?php comment_date() ?> at <?php comment_time() ?></a></time>
+				<h4 class="media-heading">
+					<?php comment_author_link() ?>
+				</h4>
+				<time>
+					<a href="#comment-<?php comment_ID() ?>" pubdate>
+						<?php comment_date() ?> at <?php comment_time() ?>
+					</a>
+				</time>
 				<?php comment_text() ?>
 			</div>
 		<?php endif;
