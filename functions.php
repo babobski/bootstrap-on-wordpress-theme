@@ -101,6 +101,8 @@
 		wp_enqueue_style( 'bootstrap' );
 		wp_register_style( 'screen', get_stylesheet_directory_uri().'/style.css', '', array(), 'screen' );
 		wp_enqueue_style( 'screen' );
+		wp_register_style('scholarjet-style', 'https://scholarjet.com/styles.bundle.css');
+                wp_enqueue_style( 'scholarjet-style' );
 	}
 	
 	/* ========================================================================================================================
