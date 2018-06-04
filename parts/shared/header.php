@@ -23,7 +23,6 @@
                 'walker'            => new wp_bootstrap_navwalker())
             );
         ?>
-		<?php get_search_form(); ?>
 	</div>
   </div>
 </nav>
