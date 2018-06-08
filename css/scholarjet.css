@@ -126,3 +126,157 @@
     background-color: #3c565c;
     color: white;
 }
+
+
+/*About us*/
+
+.team-component .team-bg {
+  background-image: url('https://scholarjet.com/assets/images/our-team.jpg');
+  background-size: cover;
+  height: 30.125rem;
+  -ms-background-position-y: 25%;
+  background-position-y: 25%;
+}
+.team-component .jumbotron-text h1 {
+  color: white;
+}
+.team-component .jumbotron-text p {
+  color: white;
+}
+.team-component .video-container {
+  padding: 3rem 3rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.team-component .video-thumbnail {
+  height: 17.5rem;
+  width: 31rem;
+  background-image: url('https://scholarjet.com/assets/images/Tuan-Empower-Video.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-component .play-button {
+  height: 3.5rem;
+  width: 3.5rem;
+  background-image: url('https://scholarjet.com/assets/images/play-button.png');
+  background-size: cover;
+}
+.team-component .play-button:hover {
+  transform: scale(1.05);
+}
+.team-component .quote {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  color: #3c565c;
+  margin-top: 1rem;
+}
+.team-component .team-container {
+  background-color: #e1eeed;
+}
+.team-component .profile-container {
+  margin: 2rem 0;
+}
+.team-component .profile-photo-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.team-component .profile-photo {
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  background-size: contain;
+  padding: 1.25rem;
+}
+.team-component .profile-description-container {
+  display: flex;
+  flex-direction: column;
+}
+.team-component .profile-subtitle-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.team-component .profile-subtitle-container * {
+  margin-right: 1.5rem;
+}
+.team-component .contact-link {
+  width: 1.8125rem;
+  height: 1.8125rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.team-component .email-link {
+  background-image: url('https://scholarjet.com/assets/images/email-navy.png');
+}
+.team-component .linkedin-link {
+  background-image: url('https://scholarjet.com/assets/images/li-navy.png');
+}
+.team-component .instagram-link {
+  background-image: url('https://scholarjet.com/assets/images/insta.png');
+}
+.team-component .support-logo-row {
+  display: flex;
+}
+.team-component .support-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.team-component .support-logo {
+  width: 100%;
+}
+.team-component .logo-wide {
+  max-width: 10rem;
+}
+.team-component .logo-tall {
+  max-width: 90%;
+}
+.team-component .contact-row {
+  background-color: #64c6bd;
+}
+.team-component .contact-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.team-component .contact-title {
+  color: white;
+}
+.team-component .contact-btn {
+  border-color: white;
+  color: white;
+  margin-left: 2rem;
+}
+@media (max-width: 991px) {
+  .team-component .team-bg {
+    height: 36.875rem;
+  }
+  .team-component .video-container {
+    align-items: center;
+  }
+  .team-component .profile-subtitle-container {
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  .team-component .team-bg {
+    height: 16rem;
+  }
+  .team-component .video-thumbnail {
+    height: 13.5rem;
+    width: 23rem;
+  }
+  .team-component .contact-container {
+    flex-direction: column;
+  }
+  .team-component .contact-btn {
+    margin: 0;
+  }
+}
+
