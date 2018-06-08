@@ -1,7 +1,7 @@
 /*NAV*/
 
 .caret {
-    background-image: url('/assets/images/green-blue-arrow.png');
+    background-image: url('https://scholarjet.com/assets/images/green-blue-arrow.png');
     height: 1.25rem;
     width: 1.25rem;
     background-size: cover;
@@ -89,7 +89,7 @@
 }
 
 .hamburger {
-    background-image: url('/assets/images/hamburger-blue.png');
+    background-image: url('https://scholarjet.com/assets/images/hamburger-blue.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 1rem;
@@ -282,7 +282,7 @@
 
 /*How it works*/
 .how-it-works .how-it-works-bg {
-  background: url("/assets/images/how-it-works.png");
+  background: url("https://scholarjet.com/assets/images/how-it-works.png");
   background-color: #64c6bd;
   background-size: cover;
 }
