@@ -53,8 +53,6 @@
 	======================================================================================================================== */
 
 	add_theme_support('post-thumbnails');
-	
-	register_nav_menus(array('primary' => 'Primary Navigation'));
 
 	/* ========================================================================================================================
 	
@@ -62,7 +60,11 @@
 	
 	======================================================================================================================== */
 
-	add_action( 'wp_enqueue_scripts', 'bootstrap_script_init' );
+	add_action( 'wp_enqueue_scripts', 'bootstrap_script_init',10);
+//	add_action( 'wp_enqueue_scripts', 'scholarjet_external_scripts' ,20);
+	add_action( 'wp_enqueue_scripts', 'scholarjet_scripts' ,30);
+
+	add_action('init', 'scholarjet_theme_setup');
 
 	add_filter( 'body_class', array( 'BsWp', 'add_slug_to_body_class' ) );
 
@@ -82,6 +84,13 @@
 	
 	======================================================================================================================== */
 
+    function scholarjet_theme_setup() {
+        add_theme_support('menus');
+        register_nav_menu('primary', 'Primary Header Navigation');
+        register_nav_menu('secondary', 'Footer Navigation');
+    }
+
+
 	/**
 	 * Add scripts via wp_head()
 	 *
@@ -90,20 +99,31 @@
 	 */
 
 	function bootstrap_script_init() {
-		
-		wp_register_script('bootstrap', get_template_directory_uri(). '/js/bootstrap.min.js', array( 'jquery' ), '3.3.7', true);
-		wp_enqueue_script('bootstrap');
-		
-		wp_register_script( 'site', get_template_directory_uri().'/js/site.js', array( 'jquery', 'bootstrap' ), '0.0.1', true );
-		wp_enqueue_script( 'site' );
 
-		wp_register_style( 'bootstrap', get_stylesheet_directory_uri().'/css/bootstrap.min.css', '', '3.3.7', 'all' );
-		wp_enqueue_style( 'bootstrap' );
-		wp_register_style( 'screen', get_stylesheet_directory_uri().'/style.css', '', array(), 'screen' );
-		wp_enqueue_style( 'screen' );
-		wp_register_style('scholarjet-style', 'https://scholarjet.com/styles.bundle.css');
-                wp_enqueue_style( 'scholarjet-style' );
+        wp_enqueue_style('bootstrap', get_template_directory_uri(). '/js/bootstrap.min.js', array( 'jquery' ), '3.3.7', true);
+		
+//		wp_register_script( 'site', get_template_directory_uri().'/js/site.js', array( 'jquery', 'bootstrap' ), '0.0.1', true );
+//		wp_enqueue_script( 'site' );
+
+//		wp_register_style( 'bootstrap', get_template_directory_uri().'/css/bootstrap.min.css', '', '3.3.7', 'all' );
+//		wp_enqueue_style( 'bootstrap' );
+//
+//		wp_register_style( 'screen', get_template_directory_uri().'/style.css', '', array(), 'screen' );
+//		wp_enqueue_style( 'screen' );
 	}
+
+	function scholarjet_external_scripts() {
+        wp_register_style('scholarjet-external-style', 'https://scholarjet.com/styles.bundle.css');
+        wp_enqueue_style( 'scholarjet-external-style' );
+    }
+
+	function scholarjet_scripts() {
+        wp_enqueue_style('google-font-roboto', 'https://fonts.googleapis.com/css?family=Roboto');
+        wp_enqueue_style('google-font-roboto-slab', 'https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+        wp_enqueue_style( 'scholarjet-local-style', get_template_directory_uri().'/css/scholarjet.bundle.css');
+        wp_enqueue_style( 'scholarjet-local-style-2', get_template_directory_uri().'/css/scholarjet.css');
+    }
 	
 	/* ========================================================================================================================
 	
