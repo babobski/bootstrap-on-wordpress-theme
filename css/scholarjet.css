@@ -455,112 +455,88 @@
   }
 }
 /*How it works component*/
-.how-it-works-component {
-  .how-it-works-bg {
-    background: url("https://scholarjet.com/assets/images/how-it-works.png");
-    background-color: #64c6bd;
-    background-size: cover;
-  }
-
-  .row {
-    padding: 2rem;
-  }
-
-  .jumbotron-text {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .jumbotron-text h1 {
-    color: white;
-  }
-
-  .jumbotron-text p {
-    color: white;
-  }
-
-  .description-title-row {
-    padding-bottom: 0;
-  }
-
-  .description-row {
-    padding-top: 0;
-  }
-
-  .description-item-container {
-    margin: 3rem;
-  }
-
-  .description-header {
-    color: #64c6bd;
-    text-align: left;
-  }
-
-  .description-bottom-break-item {
-    margin-bottom: 0;
-  }
-
-  .images-container {
-    margin-bottom: 4rem;
-  }
-
-  .img-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .img-container h4 {
-    text-align: center;
-  }
-
-  .how-it-works-img {
-    width: 18.75rem;
-  }
-
-  .faq-section {
-    background-color: #e1eeed;
-    padding: 2rem;
-  }
-
-  .faq {
-    background-color: white;
-    margin: 1.5rem 0;
-    padding: 2rem;
-  }
-
-  .faq-title {
-    margin: 1rem 0 3rem 0;
-  }
-
-  @media (max-width: 767px) {
-    .jumbotron {
-      align-items: center;
-    }
-
-    .description-top-break-item {
-      margin-top: 1rem;
-    }
-
-    .img-container {
-      flex-direction: row;
-    }
-
-    .img-container-xs-reverse {
-      flex-direction: row-reverse !important;
-    }
-  }
-
-  @media(max-width: 520px) {
-    .img-container {
-      flex-direction: column;
-    }
-
-    .img-container-xs-reverse {
-      flex-direction: column !important;
-    }
-  }
-
+.how-it-works-component .how-it-works-bg {
+  background: url("https://scholarjet.com/assets/images/how-it-works.png");
+  background-color: #64c6bd;
+  background-size: cover;
 }
+.how-it-works-component .row {
+  padding: 2rem;
+}
+.how-it-works-component .jumbotron-text {
+  display: flex;
+  flex-direction: column;
+}
+.how-it-works-component .jumbotron-text h1 {
+  color: white;
+}
+.how-it-works-component .jumbotron-text p {
+  color: white;
+}
+.how-it-works-component .description-title-row {
+  padding-bottom: 0;
+}
+.how-it-works-component .description-row {
+  padding-top: 0;
+}
+.how-it-works-component .description-item-container {
+  margin: 3rem;
+}
+.how-it-works-component .description-header {
+  color: #64c6bd;
+  text-align: left;
+}
+.how-it-works-component .description-bottom-break-item {
+  margin-bottom: 0;
+}
+.how-it-works-component .images-container {
+  margin-bottom: 4rem;
+}
+.how-it-works-component .img-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.how-it-works-component .img-container h4 {
+  text-align: center;
+}
+.how-it-works-component .how-it-works-img {
+  width: 18.75rem;
+}
+.how-it-works-component .faq-section {
+  background-color: #e1eeed;
+  padding: 2rem;
+}
+.how-it-works-component .faq {
+  background-color: white;
+  margin: 1.5rem 0;
+  padding: 2rem;
+}
+.how-it-works-component .faq-title {
+  margin: 1rem 0 3rem 0;
+}
+@media (max-width: 767px) {
+  .how-it-works-component .jumbotron {
+    align-items: center;
+  }
+  .how-it-works-component .description-top-break-item {
+    margin-top: 1rem;
+  }
+  .how-it-works-component .img-container {
+    flex-direction: row;
+  }
+  .how-it-works-component .img-container-xs-reverse {
+    flex-direction: row-reverse !important;
+  }
+}
+@media (max-width: 520px) {
+  .how-it-works-component .img-container {
+    flex-direction: column;
+  }
+  .how-it-works-component .img-container-xs-reverse {
+    flex-direction: column !important;
+  }
+}
+
 
