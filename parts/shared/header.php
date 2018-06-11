@@ -24,6 +24,17 @@
                 'walker'            => new wp_bootstrap_navwalker())
             );
         ?>
+		 <?php
+            wp_nav_menu( array(
+                'menu'              => 'primary-right',
+                'theme_location'    => 'primary-right',
+                'depth'             => 2,
+                'container'         => false,
+                'menu_class'        => 'nav navbar-nav navbar-right',
+                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                'walker'            => new wp_bootstrap_navwalker())
+            );
+        ?>
 	</div>
   </div>
 </nav>
