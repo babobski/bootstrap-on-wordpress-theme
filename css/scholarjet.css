@@ -543,7 +543,7 @@
 
 .company .company-page-bg {
   background-color: white;
-  background-image: url('/assets/images/browse-challenges.png');
+  background-image: url('https://scholarjet.com/assets/images/browse-challenges.png');
   background-size: contain;
 }
 .company .row {
