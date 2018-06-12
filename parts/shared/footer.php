@@ -1,5 +1,6 @@
+<div class="footer-component">
 	
-<footer class="footer-component">
+<footer>
     <div _ngcontent-c2="" class="sj-footer__container">
         <div _ngcontent-c2="" class="sj-footer__col">
             <img _ngcontent-c2="" class="sj-footer__logo" src="https://scholarjet.com/assets/images/ScholarJet_Logo_Primary_White_RGB.png">
@@ -68,3 +69,5 @@
         </div>
     </div>
 </footer>
+
+</div>
