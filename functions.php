@@ -101,8 +101,10 @@
 
 	function bootstrap_script_init() {
 
-        wp_enqueue_style('bootstrap', get_template_directory_uri(). '/js/bootstrap.min.js', array( 'jquery' ), '3.3.7', true);
-		
+	  wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', true);
+	  wp_enqueue_script('jquery');
+          wp_register_script('bootstrap', get_template_directory_uri(). '/js/bootstrap.min.js', array( 'jquery' ), '3.3.7', true);
+	  wp_enqueue_script('bootstrap');	
 //		wp_register_script( 'site', get_template_directory_uri().'/js/site.js', array( 'jquery', 'bootstrap' ), '0.0.1', true );
 //		wp_enqueue_script( 'site' );
 
