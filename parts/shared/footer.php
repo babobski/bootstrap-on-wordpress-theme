@@ -3,22 +3,22 @@
 <footer>
     <div _ngcontent-c2="" class="sj-footer__container">
         <div _ngcontent-c2="" class="sj-footer__col">
-            <img _ngcontent-c2="" class="sj-footer__logo" src="https://scholarjet.com/assets/images/ScholarJet_Logo_Primary_White_RGB.png">
+            <img _ngcontent-c2="" class="sj-footer__logo" src="https://app.scholarjet.com/assets/images/ScholarJet_Logo_Primary_White_RGB.png">
             <div _ngcontent-c2="" class="sj-footer__social-container">
                 <a _ngcontent-c2="" class="nodecoration" href="https://www.instagram.com/scholarjet/" rel="noopener noreferrer" target="_blank">
-                    <img _ngcontent-c2="" class="sj-footer__social-icon" src="https://scholarjet.com/assets/images/insta.png">
+                    <img _ngcontent-c2="" class="sj-footer__social-icon" src="https://app.scholarjet.com/assets/images/insta.png">
                 </a>
                 <a _ngcontent-c2="" class="nodecoration" href="https://www.linkedin.com/company/scholarjet?trk=company_logo" rel="noopener noreferrer" target="_blank">
-                    <img _ngcontent-c2="" class="sj-footer__social-icon" src="https://scholarjet.com/assets/images/li.png">
+                    <img _ngcontent-c2="" class="sj-footer__social-icon" src="https://app.scholarjet.com/assets/images/li.png">
                 </a>
                 <a _ngcontent-c2="" class="nodecoration" href="https://www.facebook.com/ScholarJet-1103038123062741/?fref=ts" rel="noopener noreferrer" target="_blank">
-                    <img _ngcontent-c2="" class="sj-footer__social-icon" src="https://scholarjet.com/assets/images/fb.png">
+                    <img _ngcontent-c2="" class="sj-footer__social-icon" src="https://app.scholarjet.com/assets/images/fb.png">
                 </a>
                 <a _ngcontent-c2="" class="nodecoration" href="https://twitter.com/ScholarJet" rel="noopener noreferrer" target="_blank">
-                    <img _ngcontent-c2="" class="sj-footer__social-icon" src="https://scholarjet.com/assets/images/twitter.png">
+                    <img _ngcontent-c2="" class="sj-footer__social-icon" src="https://app.scholarjet.com/assets/images/twitter.png">
                 </a>
                 <a _ngcontent-c2="" class="nodecoration" href="https://medium.com/scholarjet" rel="noopener noreferrer" target="_blank">
-                    <img _ngcontent-c2="" class="sj-footer__social-icon" src="https://scholarjet.com/assets/images/medium.png">
+                    <img _ngcontent-c2="" class="sj-footer__social-icon" src="https://app.scholarjet.com/assets/images/medium.png">
                 </a>
             </div>
             <div _ngcontent-c2="">
@@ -34,7 +34,7 @@
             <p _ngcontent-c2="" class="sj-footer__copyright">© 2018 ScholarJet. All Rights Reserved.</p>
             <p _ngcontent-c2="" class="sj-footer__scout">Designed and developed with help from
                 <a _ngcontent-c2="" href="https://web.northeastern.edu/scout/" target="_blank">
-                    <img _ngcontent-c2="" src="https://scholarjet.com/assets/images/scout-footer.png">
+                    <img _ngcontent-c2="" src="https://app.scholarjet.com/assets/images/scout-footer.png">
                 </a>
             </p>
         </div>
