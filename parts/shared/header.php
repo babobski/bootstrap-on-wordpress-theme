@@ -2,7 +2,7 @@
   <div class="container-fluid">
       <div class="navbar-header">
           <a class="navbar-brand" href="<?php echo home_url(); ?>">
-              <img src="https://scholarjet.com/assets/images/ScholarJet_Logo_Primary_Navy_RGB.png" class="navbar-brand-img"/>
+              <img src="https://app.scholarjet.com/assets/images/ScholarJet_Logo_Primary_Navy_RGB.png" class="navbar-brand-img"/>
           </a>
           <button type="button" class="sj-navbar__toggle collapsed"
                   data-toggle="collapse" data-target="#sj-navbar"
