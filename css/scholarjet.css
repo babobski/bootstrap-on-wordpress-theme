@@ -1,7 +1,7 @@
 /*NAV*/
 
 .caret {
-    background-image: url('https://scholarjet.com/assets/images/green-blue-arrow.png');
+    background-image: url('https://app.scholarjet.com/assets/images/green-blue-arrow.png');
     height: 1.25rem;
     width: 1.25rem;
     background-size: cover;
@@ -89,7 +89,7 @@
 }
 
 .hamburger {
-    background-image: url('https://scholarjet.com/assets/images/hamburger-blue.png');
+    background-image: url('https://app.scholarjet.com/assets/images/hamburger-blue.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 1rem;
@@ -306,7 +306,7 @@
 /*About us*/
 
 .team-component .team-bg {
-  background-image: url('https://scholarjet.com/assets/images/our-team.jpg');
+  background-image: url('https://app.scholarjet.com/assets/images/our-team.jpg');
   background-size: cover;
   height: 30.125rem;
   -ms-background-position-y: 25%;
@@ -326,7 +326,7 @@
 .team-component .video-thumbnail {
   height: 17.5rem;
   width: 31rem;
-  background-image: url('https://scholarjet.com/assets/images/Tuan-Empower-Video.png');
+  background-image: url('https://app.scholarjet.com/assets/images/Tuan-Empower-Video.png');
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
@@ -336,7 +336,7 @@
 .team-component .play-button {
   height: 3.5rem;
   width: 3.5rem;
-  background-image: url('https://scholarjet.com/assets/images/play-button.png');
+  background-image: url('https://app.scholarjet.com/assets/images/play-button.png');
   background-size: cover;
 }
 .team-component .play-button:hover {
@@ -385,13 +385,13 @@
   background-repeat: no-repeat;
 }
 .team-component .email-link {
-  background-image: url('https://scholarjet.com/assets/images/email-navy.png');
+  background-image: url('https://app.scholarjet.com/assets/images/email-navy.png');
 }
 .team-component .linkedin-link {
-  background-image: url('https://scholarjet.com/assets/images/li-navy.png');
+  background-image: url('https://app.scholarjet.com/assets/images/li-navy.png');
 }
 .team-component .instagram-link {
-  background-image: url('https://scholarjet.com/assets/images/insta.png');
+  background-image: url('https://app.scholarjet.com/assets/images/insta.png');
 }
 .team-component .support-logo-row {
   display: flex;
@@ -456,7 +456,7 @@
 }
 /*How it works component*/
 .how-it-works-component .how-it-works-bg {
-  background: url("https://scholarjet.com/assets/images/how-it-works.png");
+  background: url("https://app.scholarjet.com/assets/images/how-it-works.png");
   background-color: #64c6bd;
   background-size: cover;
 }
@@ -543,7 +543,7 @@
 
 .company .company-page-bg {
   background-color: white;
-  background-image: url('https://scholarjet.com/assets/images/browse-challenges.png');
+  background-image: url('https://app.scholarjet.com/assets/images/browse-challenges.png');
   background-size: contain;
 }
 .company .row {
