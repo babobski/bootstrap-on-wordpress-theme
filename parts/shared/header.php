@@ -25,10 +25,10 @@
             );
         ?>
         <?php if (isset($_COOKIE["__sj_logged_in"])): ?>
-            // cookies:
-            //  * __sj_logged_in
-            //  * __sj_display_name
-            //  * __sj_profile_url
+            <!-- // cookies: -->
+            <!-- //  * __sj_logged_in -->
+            <!-- //  * __sj_display_name -->
+            <!-- //  * __sj_profile_url -->
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
