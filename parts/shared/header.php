@@ -29,6 +29,7 @@
             <!-- //  * __sj_logged_in -->
             <!-- //  * __sj_display_name -->
             <!-- //  * __sj_profile_url -->
+            <!-- //  * __sj_auth_host -->
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
@@ -40,12 +41,12 @@
                              <a href="<?php echo $_COOKIE["__sj_profile_url"] ?>">Profile</a>
                          </li>
                          <li>
-                             <a href="https://app.scholarjet.com/changeEmailPassword">
+                             <a href="<?php echo $_COOKIE["__sj_auth_host"] ?>changeEmailPassword">
                                Change Email/Password
                              </a>
                          </li>
                          <li>
-                             <a href="https://app.scholarjet.com/signOut?fromWp=true">
+                             <a href="<?php echo $_COOKIE["__sj_auth_host"] ?>signOut?fromWp=true">
                                  Sign Out
                              </a>
                          </li>
