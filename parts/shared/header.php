@@ -41,12 +41,12 @@
                              <a href="<?php echo $_COOKIE["__sj_profile_url"] ?>">Profile</a>
                          </li>
                          <li>
-                             <a href="<?php echo $_COOKIE["__sj_auth_host"] ?>changeEmailPassword">
+                             <a href="<?php echo $_COOKIE["__sj_auth_host"] ?>/changeEmailPassword">
                                Change Email/Password
                              </a>
                          </li>
                          <li>
-                             <a href="<?php echo $_COOKIE["__sj_auth_host"] ?>signOut?fromWp=true">
+                             <a href="<?php echo $_COOKIE["__sj_auth_host"] ?>/signOut?fromWp=true">
                                  Sign Out
                              </a>
                          </li>
